@@ -1,2 +1,1 @@
-# Tela-de-Cadastro-com-HTML-CSS-e-valida-es-de-JavaScript-
-# Ainda em construção.
+# Tela de Cadastro com HTML/CSS e validação de JavaScript

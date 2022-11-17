@@ -6,109 +6,102 @@
     font-family: Helvetica, sans-serif;
     color: #323232;
     border: none;
-}
-
-input, label {
+  }
+  
+  input, label {
     display: block;
-    width: 100%;
-}
-
-input:focus, label:focus {
     outline: none;
-}
-
-a {
+    width: 100%;
+  }
+  
+  a {
     color: #E60084;
-}
-
-body {
-    padding-top: 5vh; /* View Height --> 5% da Tela */ 
-    background-image: url('../img/imgFundo1.jpg');
+  }
+  
+  body {
+    padding-top: 5vh;
+    background-image: url('../img/imgFundo.jpg');
     background-size: cover;
     background-position-y: -150px;
-}
-
-
-/* Form */
-
-#main-container {
+  }
+  
+  /* form */
+  #main-container {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
+    background-color: #FFF;
     border-radius: 10px;
     padding: 25px;
-}
-
-#main-container-h1 {
+  }
+  
+  #main-container h1 {
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.full-box {
+  }
+  
+  .full-box {
     flex: 1 1 100%;
     position: relative;
-}
-
-.half-box {
-    flex:1 1 45%;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
     position: relative;
-}
-
-.spacing {
+  }
+  
+  .spacing {
     margin-right: 2.5%;
-}
-
-label {
+  }
+  
+  label {
     font-weight: bold;
     font-size: .8rem;
-}
-
-input {
+  }
+  
+  input {
     border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
-}
-
-input:focus {
+  }
+  
+  input:focus {
     border-color: #E60084;
-}
-
-input[type="submit"] {
+  }
+  
+  input[type="submit"] {
     background-color: #E60084;
-    color: #fff;
+    color: #FFF;
     border: none;
     border-radius: 20px;
-    height: 40%;
+    height: 40px;
     cursor: pointer;
-}
-
-#agreement {
+  }
+  
+  #agreement {
     margin-right: 5px;
-}
-
-#agreement, #agreement-label {
+  }
+  
+  #agreement, #agreement-label {
     display: inline-block;
     width: auto;
-}
-
-/* Validação */
-
-.error-validation {
-    color: #FF1A1A;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
     position: absolute;
-    top: 57%;
-    font-size: .8rem;
-}
-
-.template {
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
     display: none;
-}
+  }

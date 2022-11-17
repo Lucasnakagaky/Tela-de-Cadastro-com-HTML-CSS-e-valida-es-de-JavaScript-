@@ -15,12 +15,14 @@
         <form id="register-form">
             <div class="full-box">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Registre seu e-mail" data-min-length="3">
+                <input type="email" name="email" id="email" placeholder="Registre seu e-mail" data-min-length="3"
+                    data-required data-email-validate>
             </div>
 
             <div class="half-box spacing">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="Registre seu nome">
+                <input type="text" name="name" id="name" placeholder="Registre seu nome" data-max-length="16"
+                    data-only-letters>
             </div>
 
             <div class="half-box">
@@ -30,12 +32,13 @@
 
             <div class="half-box spacing">
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="password" placeholder="Registre sua senha">
+                <input type="password" name="password" id="password" placeholder="Registre sua senha" data-required data-password-validate>
             </div>
 
             <div class="half-box">
-                <label for="passconfirmation">Sobrenome</label>
-                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha"
+                    data-equal="password" data-required>
             </div>
 
             <div class="full-box">
